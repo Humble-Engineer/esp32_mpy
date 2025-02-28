@@ -12,7 +12,7 @@ except ImportError:
 def main():
     led = LED(2)  # 根据硬件调整引脚号
     while True:
-        led.blink(1)
+        led.blink(0.2)
 
 if __name__ == '__main__':
     main()
