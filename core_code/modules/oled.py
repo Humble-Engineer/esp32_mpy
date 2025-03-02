@@ -208,7 +208,7 @@ if __name__ == "__main__":
     
     try:
         #配置oled显示器
-        oled = OLED(scl=22,sda=21,           
+        oled = OLED(scl=22,sda=23,           
             top='OLED Monitor',    
             sub1='uart screen cmd:',
             sub2="system message:",

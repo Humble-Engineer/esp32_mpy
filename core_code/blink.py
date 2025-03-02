@@ -10,7 +10,7 @@ except ImportError:
     print("Class LED not found!")
     
 def main():
-    led = LED(2)  # 根据硬件调整引脚号
+    led = LED(12)  # 根据硬件调整引脚号
     while True:
         led.blink(0.2)
 
